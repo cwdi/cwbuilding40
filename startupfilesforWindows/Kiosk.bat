@@ -1,0 +1,1 @@
+C:\chrome-win32\chrome.exe --kiosk -incognito http://localhost:8000/app
