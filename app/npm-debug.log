@@ -1,0 +1,198 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 verbose install where, deps [ '/Users/cwalker/Desktop/newcw/app',
+4 verbose install   [ 'karma',
+4 verbose install     'protractor',
+4 verbose install     'http-server',
+4 verbose install     'bower',
+4 verbose install     'shelljs',
+4 verbose install     'karma-junit-reporter' ] ]
+5 verbose install where, peers [ '/Users/cwalker/Desktop/newcw/app', [] ]
+6 info preinstall newcw@0.0.0
+7 verbose already installed skipping shelljs@^0.2.6 /Users/cwalker/Desktop/newcw/app
+8 verbose already installed skipping karma-junit-reporter@^0.2.2 /Users/cwalker/Desktop/newcw/app
+9 verbose already installed skipping karma@~0.10 /Users/cwalker/Desktop/newcw/app
+10 verbose already installed skipping protractor@^1.1.1 /Users/cwalker/Desktop/newcw/app
+11 verbose already installed skipping http-server@^0.6.1 /Users/cwalker/Desktop/newcw/app
+12 verbose already installed skipping bower@^1.3.1 /Users/cwalker/Desktop/newcw/app
+13 silly install resolved []
+14 info build /Users/cwalker/Desktop/newcw/app
+15 verbose linkStuff [ false, false, false, '/Users/cwalker/Desktop/newcw' ]
+16 info linkStuff newcw@0.0.0
+17 verbose linkBins newcw@0.0.0
+18 verbose linkMans newcw@0.0.0
+19 verbose rebuildBundles newcw@0.0.0
+20 verbose rebuildBundles [ '.bin',
+20 verbose rebuildBundles   'bower',
+20 verbose rebuildBundles   'http-server',
+20 verbose rebuildBundles   'karma',
+20 verbose rebuildBundles   'karma-chrome-launcher',
+20 verbose rebuildBundles   'karma-coffee-preprocessor',
+20 verbose rebuildBundles   'karma-firefox-launcher',
+20 verbose rebuildBundles   'karma-html2js-preprocessor',
+20 verbose rebuildBundles   'karma-jasmine',
+20 verbose rebuildBundles   'karma-junit-reporter',
+20 verbose rebuildBundles   'karma-phantomjs-launcher',
+20 verbose rebuildBundles   'karma-requirejs',
+20 verbose rebuildBundles   'karma-script-launcher',
+20 verbose rebuildBundles   'protractor',
+20 verbose rebuildBundles   'requirejs',
+20 verbose rebuildBundles   'shelljs' ]
+21 verbose rebuild bundle /Users/cwalker/Desktop/newcw/app/node_modules/karma-chrome-launcher
+22 info build /Users/cwalker/Desktop/newcw/app/node_modules/karma-chrome-launcher
+23 info preinstall karma-chrome-launcher@0.1.12
+24 verbose linkStuff [ false,
+24 verbose linkStuff   false,
+24 verbose linkStuff   false,
+24 verbose linkStuff   '/Users/cwalker/Desktop/newcw/app/node_modules' ]
+25 info linkStuff karma-chrome-launcher@0.1.12
+26 verbose linkBins karma-chrome-launcher@0.1.12
+27 verbose linkMans karma-chrome-launcher@0.1.12
+28 verbose rebuildBundles karma-chrome-launcher@0.1.12
+29 verbose rebuildBundles [ '.bin', 'which' ]
+30 info install karma-chrome-launcher@0.1.12
+31 info postinstall karma-chrome-launcher@0.1.12
+32 verbose rebuild bundle /Users/cwalker/Desktop/newcw/app/node_modules/karma-coffee-preprocessor
+33 info build /Users/cwalker/Desktop/newcw/app/node_modules/karma-coffee-preprocessor
+34 info preinstall karma-coffee-preprocessor@0.1.3
+35 verbose linkStuff [ false,
+35 verbose linkStuff   false,
+35 verbose linkStuff   false,
+35 verbose linkStuff   '/Users/cwalker/Desktop/newcw/app/node_modules' ]
+36 info linkStuff karma-coffee-preprocessor@0.1.3
+37 verbose linkBins karma-coffee-preprocessor@0.1.3
+38 verbose linkMans karma-coffee-preprocessor@0.1.3
+39 verbose rebuildBundles karma-coffee-preprocessor@0.1.3
+40 verbose rebuildBundles [ '.bin', 'coffee-script' ]
+41 info install karma-coffee-preprocessor@0.1.3
+42 info postinstall karma-coffee-preprocessor@0.1.3
+43 verbose rebuild bundle /Users/cwalker/Desktop/newcw/app/node_modules/karma-firefox-launcher
+44 info build /Users/cwalker/Desktop/newcw/app/node_modules/karma-firefox-launcher
+45 info preinstall karma-firefox-launcher@0.1.6
+46 verbose linkStuff [ false,
+46 verbose linkStuff   false,
+46 verbose linkStuff   false,
+46 verbose linkStuff   '/Users/cwalker/Desktop/newcw/app/node_modules' ]
+47 info linkStuff karma-firefox-launcher@0.1.6
+48 verbose linkBins karma-firefox-launcher@0.1.6
+49 verbose linkMans karma-firefox-launcher@0.1.6
+50 verbose rebuildBundles karma-firefox-launcher@0.1.6
+51 info install karma-firefox-launcher@0.1.6
+52 info postinstall karma-firefox-launcher@0.1.6
+53 verbose rebuild bundle /Users/cwalker/Desktop/newcw/app/node_modules/karma-html2js-preprocessor
+54 info build /Users/cwalker/Desktop/newcw/app/node_modules/karma-html2js-preprocessor
+55 info preinstall karma-html2js-preprocessor@0.1.0
+56 verbose linkStuff [ false,
+56 verbose linkStuff   false,
+56 verbose linkStuff   false,
+56 verbose linkStuff   '/Users/cwalker/Desktop/newcw/app/node_modules' ]
+57 info linkStuff karma-html2js-preprocessor@0.1.0
+58 verbose linkBins karma-html2js-preprocessor@0.1.0
+59 verbose linkMans karma-html2js-preprocessor@0.1.0
+60 verbose rebuildBundles karma-html2js-preprocessor@0.1.0
+61 info install karma-html2js-preprocessor@0.1.0
+62 info postinstall karma-html2js-preprocessor@0.1.0
+63 verbose rebuild bundle /Users/cwalker/Desktop/newcw/app/node_modules/karma-jasmine
+64 info build /Users/cwalker/Desktop/newcw/app/node_modules/karma-jasmine
+65 info preinstall karma-jasmine@0.1.5
+66 verbose linkStuff [ false,
+66 verbose linkStuff   false,
+66 verbose linkStuff   false,
+66 verbose linkStuff   '/Users/cwalker/Desktop/newcw/app/node_modules' ]
+67 info linkStuff karma-jasmine@0.1.5
+68 verbose linkBins karma-jasmine@0.1.5
+69 verbose linkMans karma-jasmine@0.1.5
+70 verbose rebuildBundles karma-jasmine@0.1.5
+71 info install karma-jasmine@0.1.5
+72 info postinstall karma-jasmine@0.1.5
+73 verbose rebuild bundle /Users/cwalker/Desktop/newcw/app/node_modules/karma-phantomjs-launcher
+74 info build /Users/cwalker/Desktop/newcw/app/node_modules/karma-phantomjs-launcher
+75 info preinstall karma-phantomjs-launcher@0.1.4
+76 verbose linkStuff [ false,
+76 verbose linkStuff   false,
+76 verbose linkStuff   false,
+76 verbose linkStuff   '/Users/cwalker/Desktop/newcw/app/node_modules' ]
+77 info linkStuff karma-phantomjs-launcher@0.1.4
+78 verbose linkBins karma-phantomjs-launcher@0.1.4
+79 verbose linkMans karma-phantomjs-launcher@0.1.4
+80 verbose rebuildBundles karma-phantomjs-launcher@0.1.4
+81 verbose rebuildBundles [ '.bin', 'phantomjs' ]
+82 info install karma-phantomjs-launcher@0.1.4
+83 info postinstall karma-phantomjs-launcher@0.1.4
+84 verbose rebuild bundle /Users/cwalker/Desktop/newcw/app/node_modules/karma-requirejs
+85 info build /Users/cwalker/Desktop/newcw/app/node_modules/karma-requirejs
+86 info preinstall karma-requirejs@0.2.2
+87 verbose linkStuff [ false,
+87 verbose linkStuff   false,
+87 verbose linkStuff   false,
+87 verbose linkStuff   '/Users/cwalker/Desktop/newcw/app/node_modules' ]
+88 info linkStuff karma-requirejs@0.2.2
+89 verbose linkBins karma-requirejs@0.2.2
+90 verbose linkMans karma-requirejs@0.2.2
+91 verbose rebuildBundles karma-requirejs@0.2.2
+92 info install karma-requirejs@0.2.2
+93 info postinstall karma-requirejs@0.2.2
+94 verbose rebuild bundle /Users/cwalker/Desktop/newcw/app/node_modules/karma-script-launcher
+95 info build /Users/cwalker/Desktop/newcw/app/node_modules/karma-script-launcher
+96 info preinstall karma-script-launcher@0.1.0
+97 verbose linkStuff [ false,
+97 verbose linkStuff   false,
+97 verbose linkStuff   false,
+97 verbose linkStuff   '/Users/cwalker/Desktop/newcw/app/node_modules' ]
+98 info linkStuff karma-script-launcher@0.1.0
+99 verbose linkBins karma-script-launcher@0.1.0
+100 verbose linkMans karma-script-launcher@0.1.0
+101 verbose rebuildBundles karma-script-launcher@0.1.0
+102 info install karma-script-launcher@0.1.0
+103 info postinstall karma-script-launcher@0.1.0
+104 verbose rebuild bundle /Users/cwalker/Desktop/newcw/app/node_modules/requirejs
+105 info build /Users/cwalker/Desktop/newcw/app/node_modules/requirejs
+106 info preinstall requirejs@2.1.18
+107 verbose linkStuff [ false,
+107 verbose linkStuff   false,
+107 verbose linkStuff   false,
+107 verbose linkStuff   '/Users/cwalker/Desktop/newcw/app/node_modules' ]
+108 info linkStuff requirejs@2.1.18
+109 verbose linkBins requirejs@2.1.18
+110 verbose link bins [ { 'r.js': './bin/r.js' },
+110 verbose link bins   '/Users/cwalker/Desktop/newcw/app/node_modules/.bin',
+110 verbose link bins   false ]
+111 verbose linkMans requirejs@2.1.18
+112 verbose rebuildBundles requirejs@2.1.18
+113 verbose gentlyRm vacuuming /Users/cwalker/Desktop/newcw/app/node_modules/.bin/r.js
+114 silly gentlyRm purging /Users/cwalker/Desktop/newcw/app/node_modules/.bin/r.js
+115 silly gentlyRm quitting because other entries in /Users/cwalker/Desktop/newcw/app/node_modules/.bin
+116 info install requirejs@2.1.18
+117 info postinstall requirejs@2.1.18
+118 info install newcw@0.0.0
+119 info postinstall newcw@0.0.0
+120 verbose unsafe-perm in lifecycle true
+121 info newcw@0.0.0 Failed to exec postinstall script
+122 verbose stack Error: newcw@0.0.0 postinstall: `bower install`
+122 verbose stack Exit status 1
+122 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+122 verbose stack     at EventEmitter.emit (events.js:110:17)
+122 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:14:12)
+122 verbose stack     at ChildProcess.emit (events.js:110:17)
+122 verbose stack     at maybeClose (child_process.js:1008:16)
+122 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1080:5)
+123 verbose pkgid newcw@0.0.0
+124 verbose cwd /Users/cwalker/Desktop/newcw/app
+125 error Darwin 14.1.0
+126 error argv "node" "/usr/local/bin/npm" "install"
+127 error node v0.12.0
+128 error npm  v2.5.1
+129 error code ELIFECYCLE
+130 error newcw@0.0.0 postinstall: `bower install`
+130 error Exit status 1
+131 error Failed at the newcw@0.0.0 postinstall script 'bower install'.
+131 error This is most likely a problem with the newcw package,
+131 error not with npm itself.
+131 error Tell the author that this fails on your system:
+131 error     bower install
+131 error You can get their info via:
+131 error     npm owner ls newcw
+131 error There is likely additional logging output above.
+132 verbose exit [ 1, true ]

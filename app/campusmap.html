@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="newcw"> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Campus Map</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.min.css">
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="js/controllers.js"></script>
+    <script SRC="js/timeout.js"></script>
+    <script SRC="js/changebuilding.js"></script>
+
+
+  </head>
+  <body background="images/corporatewoodsbackground.jpg", ng-controller="TenantListCtrl" oncontextmenu="return false;">
+    <div ng-view></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="building">
+              <img src="images/building40logo.png" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="address">
+          8717 West 110th Street, Overland Park, KS 66210
+          </div>
+        </div>
+      </div>
+
+         <div class="row">
+        <div class="col-md-12">
+          <div class="pagetitle">
+           CAMPUS MAP
+          </div>
+        </div>
+      </div>
+   <div class="row">
+        <div class="col-md-12">
+          <div class="mapheader">
+            <div class="boxed2">Select any building on the map below to view building information</div>
+          <div>
+        </div>
+    </div>
+
+      <div class="-fluid">
+        <div class="col-md-12">
+          <div class="appbody">
+            <div class="campusmap"> 
+              <img SRC="images/CampusMap.jpg" alt="Campus Map" height="650" width="1254" usemap="#campusmap"> 
+              <map name="campusmap">
+                <area shape ="rect" coords ="1003,79,1054,126"
+                onClick="changeBuilding('6')" />
+                <area shape ="rect" coords ="343,289,402,328"
+                onClick="changeBuilding('70')" />
+                <area shape ="rect" coords ="186,215,214,287"
+                onClick="changeBuilding('82')" />
+                <area shape ="rect" coords ="184,133,219,200"
+                onClick="changeBuilding('84')" />
+                <area shape ="rect" coords ="327,128,381,169"
+                onClick="changeBuilding('75')" />
+                <area shape ="rect" coords ="330,525,484,590"
+                onClick="changeBuilding('65_THE SHOPS')" />
+                <area shape ="rect" coords ="621,262,688,316"
+                onClick="changeBuilding('40')" />
+                <area shape ="rect" coords ="682,512,718,552"
+                onClick="changeBuilding('51')" />
+                <area shape ="rect" coords ="736,456,780,497"
+                onClick="changeBuilding('55')" />
+                <area shape ="rect" coords ="841,410,895,456"
+                onClick="changeBuilding('34')" />
+                <area shape ="rect" coords ="952,453,1006,495"
+                onClick="changeBuilding('27')" />
+                <area shape ="rect" coords ="1102,509,1177,567"
+                onClick="changeBuilding('14')" />
+                <area shape ="rect" coords ="1131,313,1186,392"
+                onClick="changeBuilding('12')" />
+                <area shape ="rect" coords ="1000,295,1060,333"
+                onClick="changeBuilding('24')" />
+                <area shape ="rect" coords ="970,265,1024,286"
+                onClick="changeBuilding('22')" />
+                <area shape ="rect" coords ="1032,265,1081,287"
+                onClick="changeBuilding('23')" />
+                <area shape ="rect" coords ="999,206,1027,256"
+                onClick="changeBuilding('20')" />
+                <area shape ="rect" coords ="952,453,1006,495"
+                onClick="changeBuilding('21')" />
+                <area shape ="rect" coords ="1095,73,1155,128"
+                onClick="changeBuilding('3')" />
+                <area shape ="rect" coords ="828,154,877,188"
+                onClick="changeBuilding('9')" />
+                <area shape ="rect" coords ="837,275,903,325"
+                onClick="changeBuilding('32')" />
+              </map> 
+            </div>
+          <div class="campusinfo"> 
+            <img SRC="images/building_info/40.jpg" alt="Building 6" height="650" width="565" name="myImage" usemap="#campusmap">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      <div class="row">
+        <div class="col-md-5">
+          <div class="selection"></div>
+        </div>
+        <div class="col-md-7 no-right-padding">
+          <div class="contact">
+            <p><b>For Leasing Contact:</b>  913.451.4466   &nbsp; <b>Security:</b> 913.451.8240   &nbsp; <b>Lost and Found:</b> 913.451.8240</p>
+            <p style="text-align: center"><b>No Soliciting</b></p>      
+          </div>
+        </div>
+    </div>
+
+
+      <div class="row">
+        <div class="menu">
+          <div class="col-md-3 no-left-padding">
+            <div class="menu1"><a href="index.html"><img src="images/buildingdirectorybutton.png"></a></div>
+          </div>
+          <div class="col-md-3 no-left-padding">
+            <div class="menu2"><a href="campusmap.html"><img src="images/Campusmapbutton.png"></a></div>
+          </div>
+          <div class="col-md-3 no-left-padding">
+            <div class="menu3"><a href="corporatewoods.html"><img src="images/cwbutton.png"></a></div>
+          </div>
+          <div class="col-md-3 no-left-padding">
+            <div class="menu4"><a href="wgo.html"><img src="images/wgobutton.png"></a></div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+ 
+
+
+</body>
+
+</html>

@@ -1,0 +1,222 @@
+
+.building {
+	height: 140px;
+
+}
+
+.logo {
+	padding-left: 40px;
+	padding-top: 40px;
+ 	color: #c1b499;
+ }
+
+ .address {
+ 	padding-left: 400px;
+ 	padding-top: 75px;
+ 	color: #c1b499;
+ 	font-family: "Arial";
+	font-size: 2.00em;
+	letter-spacing: 0.8px;
+
+ }
+
+.pagetitle{
+  padding-left: 100px;
+  padding-top: 5px;
+  font-family: "Arial";
+  width: 1920px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 3.33em;
+  letter-spacing: 1.5px;
+  color: #5b4a40;
+}
+
+.boxed {
+	border:solid 1px #CCCCCC;
+	margin-left: 40px;
+	padding-top: 0px;
+	padding-bottom: 05px;
+	background-color: #e1dacc;
+}
+
+.tenants {
+  column-count: 2;
+  height: 700px;
+  width: 1140px;
+  font-family: "Arial";
+  font-size: 2.5em;
+  color: #5b4a40;
+  margin-left: 20px;
+   -webkit-column-count: 2;
+      -moz-column-count: 2;
+           column-count: 2;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px; 
+}
+
+table.clients{
+  table-layout: fixed;
+  border-collapse: collapse;
+
+}
+
+tbody tr:nth-child(odd) {
+   background-color: #e8e4d8;
+}
+
+table.clients td.floor{
+  text-align: right;
+}
+
+table.clients
+
+
+.photos {
+  height: 700px;
+  width: 750px;
+  margin-left: 60px;
+  margin-bottom: 0px;
+
+}
+
+.slider {
+	padding-top: 0px;
+}
+
+.slider2 {
+	padding-top: 100px;
+}
+
+.selection{
+	padding-top: 10px;
+	padding-left: 60px;
+	height: 90px;
+	width: 900px;
+  	font-family: "Arial";
+  	font-size: 2.5em;
+  	color: #5b4a40;
+}
+
+input[type=radio] {
+    display:none; 
+    margin:10px;
+}
+
+
+input[type=radio] + label {
+    display:inline-block;
+    /*background-image: "images/AlphaButtonOn.jpg";*/
+    margin:-2px;
+    padding: 4px 12px;
+    background-color: none;
+    border-color: #ddd;
+}
+
+input[type=radio]:checked + label { 
+   background-image: none;
+   background-color: #ddd;
+}
+
+.appbody {
+  display: flex;
+  max-width: 1920px;
+  max-height: 800px;
+
+}
+
+.contact {
+	margin-top: 0px;
+	padding-left: 110px;
+	padding-top: 20px;
+	height: 90px;
+	width: 100%;
+	font-family: "Arial";
+  	font-size: 2.2em;
+  	letter-spacing: 0.3px;
+  	color: #5b4a40;
+  
+
+}
+
+.menu {
+	height: 85px;
+	width: 100%;
+}
+
+.menu1 {
+	padding-left: 0px;
+}
+
+.menu2 {
+	padding-left: 1px;
+}
+
+.menu3 {
+	padding-left: 3px;
+	padding-right: 5px;
+}
+
+.menu4 {
+	padding-left: 5px;
+}
+
+.no-left-padding {
+  padding-left: 0px;
+}
+.no-right-padding {
+  padding-right: 0px;
+  margin-right: 0px;
+}
+.no-bottom-padding {
+  padding-bottom: 0px;
+}
+
+.campusinfo {
+  max-width: 20px;
+  padding-left: 1275px;
+  padding-top: 0px;
+
+}
+.campusmap {
+  max-width: 20px;
+  padding-left: 33px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+}
+
+.mapheader {
+	height: 50px;
+	width: 1302px;
+	padding-left: 48px;
+	margin-top: 07px;
+	font-family: "Arial";
+  	font-size: 2.1em;
+  	letter-spacing: 0.3px;
+  	color: #5b4a40;
+
+}
+
+.boxed2 {
+	border:solid 0px #CCCCCC;
+	padding-left: 60px;
+	padding-top: 10px;
+	padding-bottom: 13px;
+	background-color: #e1dacc;
+	background: linear-gradient(225deg, transparent 30px, #e1dacc 0);
+}
+
+.appbody2 {
+	height: 707px;
+	padding-left: 50px;
+	padding-right: 30px;
+
+}
+
+
+
+
+
+
