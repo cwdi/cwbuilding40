@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Building Directory</title>
+    <style>head{ background: url(images/corporatewoodsbackground.jpg)}</style>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/styles.min.css">
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
-    <script src="js/controllers.js"></script>
+
+ 
 
   </head>
-  <body background="images/corporatewoodsbackground.jpg", ng-controller="TenantListCtrl" oncontextmenu="return false;">
+  <body background="images/corporatewoodsbackground.jpg", ng-controller="TenantListCtrl" oncontextmenu="return false;" onload="document.body.className += ' loaded';">
     <div ng-view></div>
     <div class="container-fluid">
       <div class="row">
@@ -41,7 +41,7 @@
           <div class="boxed">
             <div class="tenants">
               <table class="clients">
-                <tr ng-repeat="tenant in tenants | orderBy:predicate:!reverse">
+                <tr ng-repeat="tenant in tenants | orderBy:predicate:!reverse" ng-cloak>
                   <td >{{tenant.name }}</td> 
                     <td class="floor">{{tenant.floor}}</td>
                 </tr>
@@ -105,7 +105,9 @@
 
 
     </div>
- 
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="js/controllers.js"></script>
 
 
 </body>
