@@ -124,6 +124,10 @@
    },
 
     {
+    "name": "Jones & McCoy, P.A.",
+    "floor": 600
+   },
+    {
     "name": "Grant Thornton LLP",
     "floor": 650
    },
@@ -183,6 +187,10 @@
     "floor": 1030
     },
 
+    {
+    "name": "Smith Moore",
+    "floor": 1050
+   },
     {
     "name": "Stifel, Nicolaus & Company Incorporated",
     "floor": 1100
