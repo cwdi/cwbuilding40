@@ -100,11 +100,6 @@
     "floor": 520
    },
 
-    {
-    "name": "Sōnus Financial Partners",
-    "floor": 520
-   },
-
    {
     "name": "Accounting Principals",
     "floor": 530
@@ -124,6 +119,10 @@
     "name": "Jones & McCoy, P.A.",
     "floor": 600
    },
+    
+    {
+    "name": "Old Republic Surety Company",
+    "floor": 630
     {
     "name": "Grant Thornton LLP",
     "floor": 650
@@ -183,7 +182,9 @@
     "name": "The AGA Group",
     "floor": 1030
     },
-
+    {
+    "name": "ACS International LLC",
+    "floor": 1040
     {
     "name": "Smith Moore",
     "floor": 1050
