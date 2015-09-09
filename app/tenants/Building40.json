@@ -123,11 +123,13 @@
     {
     "name": "Old Republic Surety Company",
     "floor": 630
+   },
+    
     {
     "name": "Grant Thornton LLP",
     "floor": 650
    },
-
+    
     {
     "name": "Advanced Technology Group (ATG)",
     "floor": 670
@@ -182,13 +184,16 @@
     "name": "The AGA Group",
     "floor": 1030
     },
+    
     {
     "name": "ACS International LLC",
     "floor": 1040
-    {
-    "name": "Smith Moore",
+    },
+    
+    {"name": "Smith Moore",
     "floor": 1050
    },
+    
     {
     "name": "Stifel, Nicolaus & Company Incorporated",
     "floor": 1100
