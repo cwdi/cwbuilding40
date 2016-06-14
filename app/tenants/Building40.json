@@ -35,9 +35,10 @@
     "floor": 185
    },
 
+
     {
-    "name": "Evolv Financial Services, LLC",
-    "floor": 250
+    "name": "Burke McClasky Stevens, Attorneys at Law",
+    "floor": 220
    },
 
     {
@@ -56,19 +57,16 @@
    },
  
     {
+    "name": "Modis",
+    "floor": 280
+   },
+ 
+    {
     "name": "CorVel Corporation",
     "floor": 400
    },
 
-    {
-    "name": "HighPointe Financial Group, LLC",
-    "floor": 450
-   },
-
-    {
-    "name": "MassMutual Financial Group",
-    "floor": 450
-   },
+    
 
     {
     "name": "Gateway Wealth Management, Inc.",
@@ -84,17 +82,7 @@
     "name": "Clarus Group",
     "floor": 500
    },
-
-    {
-    "name": "Integrated Wealth Solutions-Greg Harvey",
-    "floor": 510
-   },
-
-    {
-    "name": "Sam I. Jordan, CFP",
-    "floor": 515
-   },
-
+   
     {
     "name": "Instrumental Advisors",
     "floor": 520
@@ -114,7 +102,14 @@
     "name": "Parker & Lynch",
     "floor": 530
    },
-
+    {
+    "name": "Special Councel",
+    "floor": 530 
+    },
+     {
+    "name": "NCC Inc.",
+    "floor": 570
+   },
     {
     "name": "Jones & McCoy, P.A.",
     "floor": 600
@@ -138,6 +133,10 @@
     {
     "name": "Norbrook, Inc.",
     "floor": 680
+    },
+{
+    "name": "Spencer Fane LLP",
+    "floor": 700
     },
 
     {
@@ -212,13 +211,8 @@
     {
     "name": "QC Holdings Companies",
     "floor": 1500
-    },
-    
-      {
-    "name": "HighPointe Insurance Services, LLC",
-    "floor": 130
     }
-]
+    ]
 
 
 
